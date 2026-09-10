@@ -48,11 +48,23 @@ body {
     margin-bottom: 16px;
 }
 
+/* Individual list item wrapper */
+.item-block {
+    margin-bottom: 6px;
+}
+
 /* Individual list item: date + title */
 .item-row {
     display: flex;
     align-items: baseline;
-    padding: 3px 0;
+    padding: 4px 0;
+    cursor: pointer;
+    user-select: none;
+    transition: opacity 0.15s ease;
+}
+
+.item-row:hover {
+    opacity: 0.6;
 }
 
 .item-date {
@@ -66,4 +78,18 @@ body {
     font-size: 0.92rem;
     font-weight: 600;
     color: #111111;
+}
+
+/* Content revealed under the clicked title */
+.item-content {
+    margin-left: 65px;
+    margin-top: 4px;
+    margin-bottom: 12px;
+    padding: 8px 12px;
+    background-color: #f9f9f9;
+    border-left: 2px solid #111111;
+    border-radius: 0 4px 4px 0;
+    font-size: 0.88rem;
+    line-height: 1.5;
+    color: #444444;
 }

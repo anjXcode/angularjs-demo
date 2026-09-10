@@ -30,9 +30,19 @@
             <div class="year-title">{{ section.year }}</div>
 
             <!-- Loop through each note/post in that year -->
-            <div ng-repeat="item in section.items" class="item-row">
-                <span class="item-date">{{ item.date }}</span>
-                <span class="item-title">{{ item.title }}</span>
+            <div ng-repeat="item in section.items" class="item-block">
+                
+                <!-- Clickable title row -->
+                <div class="item-row" ng-click="item.isOpen = !item.isOpen" title="Click to read notes">
+                    <span class="item-date">{{ item.date }}</span>
+                    <span class="item-title">{{ item.title }}</span>
+                </div>
+
+                <!-- Content shown when title is clicked -->
+                <div ng-show="item.isOpen" class="item-content">
+                    {{ item.content }}
+                </div>
+
             </div>
 
         </div>

@@ -1,6 +1,6 @@
 {
   "profile": {
-    "name": "Anjali Patel",
+    "name": "Alex Morgan",
     "role": "Biotech Student",
     "bio": "Exploring biology, tech, and simple web development. Writing about learning notes, lab experiments, and basic code."
   },
@@ -8,19 +8,51 @@
     {
       "year": "2026",
       "items": [
-        { "date": "Oct 9", "title": "Intro to AngularJS: What is $scope?" },
-        { "date": "Oct 8", "title": "Displaying Lists with ng-repeat" },
-        { "date": "Oct 7", "title": "Fetching JSON data using $http.get()" },
-        { "date": "Oct 6", "title": "Two-Way Data Binding with ng-model" },
-        { "date": "Oct 5", "title": "Using Filters like uppercase and lowercase" }
+        {
+          "date": "Oct 9",
+          "title": "Intro to AngularJS: What is $scope?",
+          "content": "$scope is like a bridge or glue between your HTML and your JavaScript controller. Any variable attached to $scope in JavaScript can be immediately displayed in HTML using {{ variable }}."
+        },
+        {
+          "date": "Oct 8",
+          "title": "Displaying Lists with ng-repeat",
+          "content": "ng-repeat works just like a 'for loop' in HTML. It repeats an HTML element for every single item inside an array, making it easy to display lists of data."
+        },
+        {
+          "date": "Oct 7",
+          "title": "Fetching JSON data using $http.get()",
+          "content": "$http.get() sends a request to load a JSON file or API from the server. Once the response arrives, we store it into $scope to display it on the screen."
+        },
+        {
+          "date": "Oct 6",
+          "title": "Two-Way Data Binding with ng-model",
+          "content": "ng-model connects an input field directly to a variable. If you type in the text box, the variable updates in real-time without reloading the page."
+        },
+        {
+          "date": "Oct 5",
+          "title": "Using Filters like uppercase and lowercase",
+          "content": "Filters format text for display without altering the original data. For example, writing {{ 'hello' | uppercase }} shows HELLO on the page."
+        }
       ]
     },
     {
       "year": "2025",
       "items": [
-        { "date": "Oct 4", "title": "DNA Sequence Data in JSON format" },
-        { "date": "Oct 3", "title": "Simple HTML and CSS for Lab Reports" },
-        { "date": "Oct 2", "title": "Running a Local Python Web Server" }
+        {
+          "date": "Oct 4",
+          "title": "DNA Sequence Data in JSON format",
+          "content": "In bioinformatics, JSON is often used to structure gene information, organism names, and DNA base sequences (A, T, C, G) so web apps can read them easily."
+        },
+        {
+          "date": "Oct 3",
+          "title": "Simple HTML and CSS for Lab Reports",
+          "content": "HTML provides the skeleton of your webpage (headings, tables, paragraphs), while CSS controls the visual layout (colors, margins, and typography)."
+        },
+        {
+          "date": "Oct 2",
+          "title": "Running a Local Python Web Server",
+          "content": "Modern browsers block loading local JSON files directly from a file path due to security restrictions. Running 'python -m http.server' gives you a safe local web address."
+        }
       ]
     }
   ]
