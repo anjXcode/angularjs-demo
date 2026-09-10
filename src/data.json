@@ -1,0 +1,27 @@
+{
+  "profile": {
+    "name": "Alex Morgan",
+    "role": "Biotech Student",
+    "bio": "Exploring biology, tech, and simple web development. Writing about learning notes, lab experiments, and basic code."
+  },
+  "sections": [
+    {
+      "year": "2026",
+      "items": [
+        { "date": "Oct 9", "title": "Intro to AngularJS: What is $scope?" },
+        { "date": "Oct 8", "title": "Displaying Lists with ng-repeat" },
+        { "date": "Oct 7", "title": "Fetching JSON data using $http.get()" },
+        { "date": "Oct 6", "title": "Two-Way Data Binding with ng-model" },
+        { "date": "Oct 5", "title": "Using Filters like uppercase and lowercase" }
+      ]
+    },
+    {
+      "year": "2025",
+      "items": [
+        { "date": "Oct 4", "title": "DNA Sequence Data in JSON format" },
+        { "date": "Oct 3", "title": "Simple HTML and CSS for Lab Reports" },
+        { "date": "Oct 2", "title": "Running a Local Python Web Server" }
+      ]
+    }
+  ]
+}
